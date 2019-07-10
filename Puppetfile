@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+#/usr/bin/env ruby
 #^syntax detection
 
 forge "https://forgeapi.puppetlabs.com"
@@ -15,5 +15,5 @@ forge "https://forgeapi.puppetlabs.com"
   :ref => '1.4.x'
 
  mod 'testrepo',
-   :git => 'https://github.com/pwngying/environments.git',
-   :branch => 'master'
+   :git => 'https://github.com/pwngying/testrepo.git',
+  :branch => 'master'
