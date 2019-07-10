@@ -14,6 +14,6 @@ forge "https://forgeapi.puppetlabs.com"
    :git => 'https://github.com/puppetlabs/puppetlabs-apt.git',
   :ref => '1.4.x'
 
- mod 'testrepo'
+ mod 'testrepo',
    :git => 'git://github.com:pwngying/environments.git',
    :branch => 'master'
